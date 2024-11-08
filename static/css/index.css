@@ -1,0 +1,133 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: black;
+  /* font-family: "sans-serif"; */
+  font-family: "Roboto";
+  font-size: 14px;
+  /* line-height: 1.5; */
+}
+
+main,
+header,
+section,
+aside,
+article,
+nav,
+footer {
+  display: block;
+}
+
+/* .bigwrapper {
+  border: 2px solid green;
+  width: 1600px;
+} */
+
+a {
+  text-decoration: none;
+  /* color: blue; */
+}
+
+.title, a,.color{
+  color: rgb(0, 182, 203);
+}
+
+.fa{margin-right: 5px;}
+
+section a {
+  font-size: 12px;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: normal;
+}
+h2 {
+  font-size: 16px;
+}
+h1 {
+  font-size: 18px;
+}
+
+section p {
+  margin-bottom: 15px;
+}
+section {
+  margin-top: 25px;
+}
+
+.main,
+.contacts,
+#detail_div,
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contacts {
+  width: 80%;
+  margin: 0px auto;
+}
+
+.cd {
+  width: 47%;
+  text-align: left;
+  /* border: 2px solid green; */
+}
+
+section {
+  width: 47%;
+  text-align: justify;
+}
+
+section h2 {
+  border-bottom: 3px solid black;
+  margin-bottom: 8px;
+}
+ul {
+  margin-left: 15px;
+}
+
+#detail_div p {
+  margin: unset;
+}
+
+#detail_div .date {
+  width: 90%;
+}
+
+#detail_div .location {
+  width: 90%;
+}
+
+.sub_section {
+  border-bottom: 2px dotted rgb(71, 69, 69);
+}
+
+.sub_section {
+  margin-top: 15px;
+}
+
+.last {
+  border: unset;
+}
+
+
+.items {
+	width: 24%;
+	border: 1px solid gray;
+	padding: 1px;
+	text-align: center;
+	margin-bottom: 11px;
+	align-content: center;
+}
+
+svg {
+	width: 8px;
+	height: auto;
+  margin-right: 5px;
+}
